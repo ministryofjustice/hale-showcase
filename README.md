@@ -2,7 +2,7 @@
 
 <img align="right" width="300" src="https://github.com/ministryofjustice/hale-showcase/blob/main/screenshot.png">
 
-A WordPress child theme to the [Hale theme](https://github.com/ministryofjustice/wp-hale). When installed on a site, it creates a dashboard on the front page of the site, that displays a variety of metrics. 
+A WordPress child theme to the [Hale theme](https://github.com/ministryofjustice/wp-hale). When installed on a site, it adds additional features to the Hale theme to aid showcasing the theme. 
 
 ## Installation
 
