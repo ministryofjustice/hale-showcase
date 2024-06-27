@@ -1,0 +1,6 @@
+{
+    "name": "ministryofjustice/hale-showcase",
+    "description": "Hale Showcase theme",
+    "type": "wordpress-theme",
+    "require": {}
+}
