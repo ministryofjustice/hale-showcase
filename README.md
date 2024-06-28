@@ -1,4 +1,4 @@
-# Hale Showcase Child theme
+# Hale Showcase Theme
 
 <img align="right" width="300" src="https://github.com/ministryofjustice/hale-showcase/blob/main/screenshot.png">
 
