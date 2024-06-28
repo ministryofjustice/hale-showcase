@@ -1,0 +1,1 @@
+// Hale Showcase theme JS

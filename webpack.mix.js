@@ -2,8 +2,6 @@ const mix_ = require('laravel-mix');
 
 
 mix_.setPublicPath('./dist')
-  .copy('./assets/images/*', 'dist/images/')
-  .copy('./assets/webfonts/*', 'dist/webfonts/')
   .sass('./assets/scss/style.scss', 'css/hale-showcase-style.min.css')
   .copy('./assets/js/*', 'dist/js/')
   .options({
