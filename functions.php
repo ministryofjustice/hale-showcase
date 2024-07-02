@@ -74,3 +74,10 @@ function is_plugin_active_on_site($plugin, $site_id = 1) {
     }
     return $is_active;
 }
+
+
+/**
+ * Carry through parent ACF fields
+ */
+acf_update_setting('save_json', get_template_directory() . '/acf-json');
+acf_append_setting('load_json', get_template_directory() . '/acf-json');
