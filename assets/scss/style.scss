@@ -1,1 +1,18 @@
 @charset "UTF-8";
+
+//import the colour scheme examples
+@import 'example_colours/colour-1';
+@import 'example_colours/colour-2';
+@import 'example_colours/colour-3';
+@import 'example_colours/colour-4';
+
+.showcase-example-colour-preview {
+	margin-left: 1rem;
+
+	> span {
+		border: 1px solid black;
+		display: inline-block;
+		width: 19px;
+		height: 19px;
+	}
+}
