@@ -60,7 +60,7 @@ $header_quick_exit = get_theme_mod( 'show_quick_exit', 'no' );
   }
     ?>
 <?php
-include "partials/emergency-banner.php";
+get_template_part("partials/emergency-banner.php");
 ?>
 
 <div class="showcase-top-colour-changer">
