@@ -20,3 +20,16 @@
 .showcase-top-colour-changer {
 	background-color: #f3f2f1;
 }
+
+// Get logo to match colour of header link text
+.govuk-header__logotype {
+	path {
+		fill: var(--header-link);
+	}
+}
+// Whether the filter should be inverted or not (yes on default cookie cake brand)
+a:focus {
+	.govuk-header__logotype {
+		filter: invert(1) hue-rotate(180deg);
+	}
+}

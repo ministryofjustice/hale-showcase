@@ -12,10 +12,12 @@
 	}
 }
 
-// Whether the filter should be black or white (comment out for white)
+// Whether the filter should be inverted or not (comment out for invert)
 html.colour-4 {
-	.hale-header__logo--custom img {
-		filter: invert(1) hue-rotate(180deg);
+	a:focus {
+		.govuk-header__logotype {
+			filter: none;
+		}
 	}
 }
 
