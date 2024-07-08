@@ -1,3 +1,4 @@
+// Colours used in the little boxes after the setting option
 .showcase-example-colour-preview--1>span {
 
 	&:nth-child(1) {
@@ -8,6 +9,13 @@
 	}
 	&:nth-child(3) {
 		background-color: #D95619; //link-focus-shadow or link-focus
+	}
+}
+
+// Whether the filter should be black or white (comment out for white)
+html.colour-1 {
+	.hale-header__logo--custom img {
+		filter: invert(1) hue-rotate(180deg);
 	}
 }
 
