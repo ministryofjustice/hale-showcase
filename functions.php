@@ -76,6 +76,12 @@ function is_plugin_active_on_site($plugin, $site_id = 1) {
 	return $is_active;
 }
 
+add_action( 'wp_body_open', 'add_colour_picker' );
+
+function add_colour_picker() {
+	include "partials/colour-picker.php";
+}
+
 
 /**
  * Carry through parent ACF fields
