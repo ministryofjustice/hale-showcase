@@ -32,7 +32,10 @@
 
 .showcase-top-colour-changer {
 	background-color: var(--header-bg);
-	border-bottom: 2px solid currentColor;
+	color: var(--header-link);
+	border-style: solid;
+	border-color: currentColor;
+	border-width: 0 0 2px;
 	color: var(--header-link);
 
 	* {
@@ -98,5 +101,19 @@ a:focus {
 @media only screen and (min-width: 700px) {
 	.showcase-colour-radio {
 		width: 30%;
+	}
+}
+@media only screen and (min-width: 1600px) {
+	.showcase-top-colour-changer {
+		float: right;
+		width: calc((100vw - 1000px) / 2 - 10px);
+		border-width: 0 0 2px 2px;
+		position: fixed;
+		right: 0;
+		z-index: 100;
+		padding: 4px;
+	}
+	.showcase-colour-radio {
+		width: 100%;
 	}
 }
